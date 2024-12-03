@@ -22,7 +22,22 @@ void CCarre::Setcote(int cote1)
 
 void CCarre::Afficher()
 {
-	cout << sx << " " << sy << " " << cote;
+	cout << sx << " " << sy << " " << cote << endl;
 }
 
+int CCarre::Getsx()
+{
+	return sx;
 	
+}
+
+int CCarre::Getsy()
+{
+	return sy;
+}
+
+int CCarre::GetCote()
+{
+	return cote;
+}
+

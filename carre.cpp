@@ -41,3 +41,37 @@ int CCarre::GetCote()
 	return cote;
 }
 
+void CCarre::Deplacer(char direction, int saut)
+{
+	/*cout << "entre la  valeur du saut: ";
+	cin >> saut;
+	cout << endl << "entre la direction: ";
+	cin >> direction;
+    
+	*/
+
+
+	if (direction == 'n')
+	{
+		sy = sy-saut;
+	}
+
+	if (direction == 's')
+	{
+		sy = sy+saut;
+	}
+
+	if (direction == 'e')
+	{
+		sx = sx+saut;
+	}
+
+	if (direction == 'o')
+	{
+		sx = sx-saut;
+	}
+
+	
+
+}
+

@@ -71,7 +71,7 @@ void CCarre::Deplacer(char direction, int saut)
 	{
 		sx = sx-saut;
 	}
-
+	
 
 
 	

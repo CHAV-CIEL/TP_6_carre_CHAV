@@ -19,6 +19,31 @@ int main()
 	c1.Afficher();
 	c1.Deplacer(5, -3);
 	c1.Afficher();
-}
+	CCarre TabCarre[3]; 
+	/*
+	
+	TabCarre[].Setsx(3);
+	c1.Setsy(15);
+	c1.Setcote(100);
+	c1.Afficher();
+	1.Setsx(3);
+	c1.Setsy(15);
+	c1.Setcote(100);
+	c1.Afficher();
+	1.Setsx(3);
+	c1.Setsy(15);
+	c1.Setcote(100);
+	c1.Afficher();
+	1.Setsx(3);
+	c1.Setsy(15);
+	c1.Setcote(100);
+	c1.Afficher();
+	*/
+	
+	
 
+
+
+	
+}
 

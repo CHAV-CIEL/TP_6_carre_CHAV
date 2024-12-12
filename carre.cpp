@@ -41,6 +41,7 @@ int CCarre::GetCote()
 	return cote;
 }
 
+
 void CCarre::Deplacer(char direction, int saut)
 {
 	/*cout << "entre la  valeur du saut: ";
@@ -71,7 +72,16 @@ void CCarre::Deplacer(char direction, int saut)
 		sx = sx-saut;
 	}
 
+
+
 	
 
 }
 
+void CCarre::Deplacer(int dx, int dy)
+{
+
+	sx = sx+dx;
+	sy = sy+dy;
+
+}

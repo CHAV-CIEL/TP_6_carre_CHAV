@@ -24,6 +24,7 @@ public:
 	int GetCote();
 	// voir ***
 	void Deplacer(char direction, int saut);
+	void Deplacer( int dx, int dy);
 };
 
 /*

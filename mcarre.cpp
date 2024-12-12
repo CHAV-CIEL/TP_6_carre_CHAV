@@ -17,5 +17,8 @@ int main()
 	cout << c1.GetCote() << endl;
 	c1.Deplacer('n', 5);
 	c1.Afficher();
+	c1.Deplacer(5, -3);
+	c1.Afficher();
 }
+
 

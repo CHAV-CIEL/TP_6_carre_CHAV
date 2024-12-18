@@ -22,6 +22,7 @@ public:
 		c = cote;
 	}
 
+
 	// méthode qui affecte la valeur de sx1 à sx
 	void Setsx(int sx1);
 	// méthode qui affecte la valeur de sy1 à sy

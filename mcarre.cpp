@@ -19,7 +19,7 @@ int main()
 	c1.Afficher();
 	c1.Deplacer(5, -3);
 	c1.Afficher();
-	CCarre TabCarre[4]; 
+	CCarre TabCarre[5]; 
 
 
 	TabCarre[1].Setsx(4);

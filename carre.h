@@ -8,6 +8,19 @@ private:
 	int sx, sy;
 	unsigned int cote;
 public:
+	CCarre()
+	{
+		sx = 1;
+		sy = 3;
+		cote = 10;
+	}
+
+	CCarre(int x, int y, unsigned int c)
+	{
+		x = sx;
+		y = sy;
+		c = cote;
+	}
 	// méthode qui affecte la valeur de sx1 à sx
 	void Setsx(int sx1);
 	// méthode qui affecte la valeur de sy1 à sy
@@ -24,7 +37,7 @@ public:
 	int GetCote();
 	// voir ***
 	void Deplacer(char direction, int saut);
-	void Deplacer( int dx, int dy);
+	void Deplacer(int dx, int dy);
 };
 
 /*

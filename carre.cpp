@@ -22,13 +22,13 @@ void CCarre::Setcote(int cote1)
 
 void CCarre::Afficher()
 {
-	cout << sx << " " << sy << " " << cote << endl;
+	cout << "x: " << sx << " " << "y: " << sy << " " << "cote: " << cote << endl;
 }
 
 int CCarre::Getsx()
 {
 	return sx;
-	
+
 }
 
 int CCarre::Getsy()
@@ -48,40 +48,40 @@ void CCarre::Deplacer(char direction, int saut)
 	cin >> saut;
 	cout << endl << "entre la direction: ";
 	cin >> direction;
-    
+
 	*/
 
 
 	if (direction == 'n')
 	{
-		sy = sy-saut;
+		sy = sy - saut;
 	}
 
 	if (direction == 's')
 	{
-		sy = sy+saut;
+		sy = sy + saut;
 	}
 
 	if (direction == 'e')
 	{
-		sx = sx+saut;
+		sx = sx + saut;
 	}
 
 	if (direction == 'o')
 	{
-		sx = sx-saut;
+		sx = sx - saut;
 	}
-	
 
 
-	
+
+
 
 }
 
 void CCarre::Deplacer(int dx, int dy)
 {
 
-	sx = sx+dx;
-	sy = sy+dy;
+	sx = sx + dx;
+	sy = sy + dy;
 
 }

@@ -21,6 +21,7 @@ int main()
 	c1.Afficher();
 	CCarre TabCarre[4]; 
 
+
 	TabCarre[1].Setsx(4);
 	TabCarre[1].Setsy(17);
 	TabCarre[1].Setcote(95);

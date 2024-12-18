@@ -5,6 +5,7 @@ using namespace std;
 
 
 int main()
+
 {
 
 	CCarre c1;

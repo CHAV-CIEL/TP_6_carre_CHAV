@@ -1,5 +1,5 @@
 #include "carre.h"
-#include <iostream>
+
 
 using namespace std;
 
@@ -47,7 +47,7 @@ int main()
 	TabCarre[4].Setcote(115);
 	cout << "valeur de TabCarre[4]: ";
 	TabCarre[4].Afficher();
-
+	 
 	CCarre* c2 = new CCarre();
 	cout << "valeur de carre par deffaut: ";
 	c2->Afficher();

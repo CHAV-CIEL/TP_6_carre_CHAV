@@ -5,6 +5,11 @@ VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "carres", "carres.vcxproj", "{35402B54-D54C-4AF5-8528-FF307C464634}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4F286B27-0AAF-477D-9B02-062C25B0C88F}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\OneDrive\Bureau\azertyuiop_1258\Doxyfile = ..\..\..\..\OneDrive\Bureau\azertyuiop_1258\Doxyfile
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
